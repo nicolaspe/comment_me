@@ -1,0 +1,22 @@
+{
+  "name": "comment_me",
+  "version": "1.0.0",
+  "description": "Assignment for Algorithmic Composition, by Camilla Padgitt-Coles, Katya Rozanova, Nicolás Escarpentier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaspe/comment_me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaspe/comment_me/issues"
+  },
+  "homepage": "https://github.com/nicolaspe/comment_me#readme",
+  "dependencies": {
+    "midi-json-parser": "^4.2.6"
+  }
+}
