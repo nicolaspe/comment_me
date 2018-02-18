@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/nicolaspe/comment_me#readme",
   "dependencies": {
-    "midi-json-parser": "^4.2.6"
+    "midiconvert": "^0.4.3"
   }
 }
