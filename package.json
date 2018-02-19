@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nicolaspe/comment_me#readme",
   "dependencies": {
+    "jsonfile": "^4.0.0",
     "midiconvert": "^0.4.3"
   }
 }
