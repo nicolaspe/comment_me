@@ -34,7 +34,7 @@ score_file.append(harmonic_log + "\n")
 
 
 # == MIDI JSON DATA ==
-midi_file = open('Beatles_NorgWood.json', 'r')
+midi_file = open('Beatles_NorwWood.json', 'r')
 midi_json = json.load(midi_file)
 midi_file.close()
 
@@ -104,7 +104,7 @@ score_file.append("e")
 
 
 # == WRITE FILE ==
-filename = "04_norw_markov.sco"
+filename = "norw_markov.sco"
 # clear the file
 open(filename,"w").close()
 # write the lines
