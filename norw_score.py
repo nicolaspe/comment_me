@@ -23,10 +23,10 @@ def markov(arr):
 	return thechain
 
 
-score_file = []
-
 
 # == F TABLE & HARMONICS ==
+score_file = []
+
 # made up harmonics
 harmonic_log = "f 1 0 16384 10 1.0 0.8 0.6 0.7 0.5 0.0 0.3 0.2"
 score_file.append(harmonic_log + "\n")
@@ -96,6 +96,7 @@ for i in range(len(guitar_notes)):
 	note_list = ["i", instr, start, dur, freq, amp, pan, "\n"]
 	note_str = " ".join(str(item) for item in note_list)
 	score_file.append(note_str)
+
 
 
 # == END ==
