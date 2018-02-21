@@ -62,8 +62,8 @@ for a in aster_data:
     orbit = a['orbit_class']  # selects the instrument
     qau1 = float(a['q_au_1']) # sets the duration
 
-    # first occurrence (starting in 2010)
-    start = ((yea-2010)*year_mult + mon + day/30.) * month_interval
+    # sound parameters
+    start = ((yea-2010)*year_mult + mon + day/30.) * month_interval # first occurrence (starting in Jan 1, 2010)
     dur  = qau1 * 2
     freq = mtof( scale[ int(deg/9) ] )
     amp  = rng.random()*2000 + 4000
